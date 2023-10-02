@@ -1,4 +1,72 @@
+html,
 body {
-  background-attachment: fixed;
+  max-width: 1920px;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
   display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 0 auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  margin-top: 115px;
+  flex: 0 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+svg {
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.header__container {
+  max-width: 1920px;
+  margin: 0 30px;
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__line {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid #293A50;
+  margin-top: 21px;
 }
